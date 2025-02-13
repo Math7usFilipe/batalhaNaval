@@ -29,3 +29,37 @@ Afundar todas as *Dot Coms* do computador no menor número de tentativas. Você 
 
 ---
 **Divirta-se afundando as Dot Coms e testando suas habilidades! 🚀**
+
+<br>
+<br>
+
+## O jogo SimpleDotCom
+
+### 📝 Introdução
+Esta é uma versão simplificada do jogo **Sink a Dot Com**, chamada **SimpleDotCom**. Começaremos com essa versão para construir, posteriormente, o jogo completo.
+
+### 🚀 Conceito
+- Teremos **duas classes principais:** `SimpleDotComTestDrive` e `SimpleDotCom`.
+- **Simplificação:** Em vez de uma grade 2D e três DotComs, usaremos **apenas uma DotCom** oculta em uma **única linha de 7 células**.
+
+### 🎯 Objetivo
+Adivinhar todas as células ocupadas pela Dot Com. O jogo terminará quando todas as células forem descobertas.
+
+### 🛠️ Estrutura
+- A classe **`SimpleDotComTestDrive`** conterá todo o código no método `main()`.
+- O jogo criará **uma instância única de `SimpleDotCom`** e selecionará **3 células consecutivas** (em uma linha virtual de **7 posições**, de `0` a `6`).
+- O usuário fornecerá palpites, e o jogo verificará se acertou.
+
+### 🧠 Conceito da Linha Virtual
+- Não é necessário implementar uma matriz de 7 posições.
+- Basta armazenar as **3 células ocupadas** pela Dot Com.
+- O jogo saberá que as células são consecutivas e estarão entre as 7 posições possíveis.
+
+### 🕹️ Ciclo do Jogo
+1. O jogo cria uma **instância da DotCom**.
+2. **Atribui 3 células consecutivas** para a Dot Com.
+3. **Solicita palpites** ao usuário.
+4. **Verifica o acerto** e repete até eliminar todas as células.
+
+<br>
+<br>
