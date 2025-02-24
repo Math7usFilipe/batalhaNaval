@@ -15,9 +15,9 @@ public class SimpleDotCom {
         int guess = Integer.parseInt(stringGuess);
 
         /*
-        * cria uma variável para armazenar o resultado que retornamos.
-        * Inserimos 'miss' como resultado padrão, presumindo o "erro"
-        */
+         * cria uma variável para armazenar o resultado que retornamos.
+         * Inserimos 'miss' como resultado padrão, presumindo o "erro"
+         */
         String result = "miss";
 
         //reprete para cada célula da matriz locationCells
